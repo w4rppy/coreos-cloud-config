@@ -6,6 +6,6 @@ ssh-authorized-keys:
 
 users:
   - name: coreos0
-    groups: sudo
+#    groups: sudo
     shell: /bin/bash
-    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+#    sudo: ['ALL=(ALL) NOPASSWD:ALL']
