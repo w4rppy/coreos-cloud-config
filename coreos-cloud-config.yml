@@ -1,0 +1,11 @@
+#cloud-config
+
+hostname: coreos0
+ssh-authorized-keys:
+  - ssh-rsa AAAA...
+
+users:
+  - name: coreos0
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
